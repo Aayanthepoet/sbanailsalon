@@ -1,0 +1,31 @@
+/* CSS for background image */
+body {
+    background-image: url('images/nail-truck.jpg'); /* Adjust the path as needed */
+    background-size: cover; /* Make the image cover the entire page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Make the background stay fixed when scrolling */
+    color: #fff; /* Optional: Set text color to contrast with the background */
+}
+
+/* Maintain a semi-transparent background for content */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the navbar */
+}
+
+/* Ensure dropdown menu items remain visible against background */
+.dropdown-menu {
+    background-color: #fff;
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}

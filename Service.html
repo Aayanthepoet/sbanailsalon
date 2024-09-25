@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Art Gallery | Pamper Me Quick LLC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        .gallery-container {
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        .gallery-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white w-100">
+        <a href="index.html" class="navbar-brand">
+            <img src="image/logo.png" alt="Pamper Me Quick LLC" style="width: 50px; height: 50px;" class="d-inline-block align-top">
+           
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ail-art.html">Nail Art</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <div class="gallery-container">
+        <h2 class="gallery-title">Nail Art Gallery</h2>
+        <div class="gallery">
+            <img src="nail-art.jpeg" alt="Nail Art 1">
+            <img src="nail-art1.jpeg" alt="Nail Art 2">
+            <img src="images/nail2.jpeg" alt="Nail Art 3">
+            <img src="images/nail3.jpeg" alt="Nail Art 4">
+            <img src="images/nail4.jpeg" alt="Nail Art 5">
+            <img src="images/nail5.jpeg" alt="Nail Art 6">
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2024 Pamper Me Quick LLC. All rights reserved.</p>
+            <p>Phone: <a href="tel:3473836660" class="text-white">347-383-6660</a> | Email: <a href="mailto:info@selltova.com.com" class="text-white">info@selltova.com.com</a></p>
+            <div>
+                <a href="https://www.facebook.com/Panpermequick/" target="_blank" class="text-white mr-3">Facebook</a>
+                <a href="https://www.instagram.com/Panpermequick/" target="_blank" class="text-white">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
