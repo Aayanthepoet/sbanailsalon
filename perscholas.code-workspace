@@ -1,11 +1,11 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "admin",
-		"git.ignoreLimitWarning": true
-	}
+  "folders": [
+    {
+      "path": "..",
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "admin",
+    "git.ignoreLimitWarning": true,
+  },
 }
